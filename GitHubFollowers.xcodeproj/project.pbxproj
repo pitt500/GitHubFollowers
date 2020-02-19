@@ -9,19 +9,21 @@
 /* Begin PBXBuildFile section */
 		B5C7865A23FC113C001F245F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C7865923FC113C001F245F /* AppDelegate.swift */; };
 		B5C7865C23FC113C001F245F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C7865B23FC113C001F245F /* SceneDelegate.swift */; };
-		B5C7865E23FC113C001F245F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C7865D23FC113C001F245F /* ViewController.swift */; };
 		B5C7866323FC113F001F245F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5C7866223FC113F001F245F /* Assets.xcassets */; };
 		B5C7866623FC113F001F245F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C7866423FC113F001F245F /* LaunchScreen.storyboard */; };
+		B5E982C923FD59CE0005B124 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E982C823FD59CE0005B124 /* SearchViewController.swift */; };
+		B5E982CB23FD59FC0005B124 /* FavoritesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E982CA23FD59FC0005B124 /* FavoritesListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B5C7865623FC113C001F245F /* GitHubFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C7865923FC113C001F245F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5C7865B23FC113C001F245F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B5C7865D23FC113C001F245F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B5C7866223FC113F001F245F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5C7866523FC113F001F245F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5C7866723FC113F001F245F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5E982C823FD59CE0005B124 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		B5E982CA23FD59FC0005B124 /* FavoritesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +58,11 @@
 			children = (
 				B5C7865923FC113C001F245F /* AppDelegate.swift */,
 				B5C7865B23FC113C001F245F /* SceneDelegate.swift */,
-				B5C7865D23FC113C001F245F /* ViewController.swift */,
 				B5C7866223FC113F001F245F /* Assets.xcassets */,
 				B5C7866423FC113F001F245F /* LaunchScreen.storyboard */,
 				B5C7866723FC113F001F245F /* Info.plist */,
+				B5E982C823FD59CE0005B124 /* SearchViewController.swift */,
+				B5E982CA23FD59FC0005B124 /* FavoritesListViewController.swift */,
 			);
 			path = GitHubFollowers;
 			sourceTree = "<group>";
@@ -134,8 +137,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5C7865E23FC113C001F245F /* ViewController.swift in Sources */,
+				B5E982C923FD59CE0005B124 /* SearchViewController.swift in Sources */,
 				B5C7865A23FC113C001F245F /* AppDelegate.swift in Sources */,
+				B5E982CB23FD59FC0005B124 /* FavoritesListViewController.swift in Sources */,
 				B5C7865C23FC113C001F245F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

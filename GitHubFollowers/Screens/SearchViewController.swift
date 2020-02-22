@@ -37,6 +37,7 @@ class SearchViewController: UIViewController {
   }
   
   @objc func pushFollowerListVC() {
+    usernameTextField.resignFirstResponder()
     guard isUserEntered else {
       presentGFAlertOnMainThread(title: "Empty Username", message: "Please enter a username. We need to know who to look for 😃", buttonTitle: "Ok")
       return
@@ -94,7 +95,6 @@ class SearchViewController: UIViewController {
 extension SearchViewController: UITextFieldDelegate {
   func textFieldShouldReturn(_ textField: UITextField) -> Bool {
     pushFollowerListVC()
-    textField.resignFirstResponder()
     return true
   }
 }

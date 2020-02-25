@@ -10,6 +10,7 @@
 		B51C4B8B2403F11A00408CBF /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51C4B8A2403F11A00408CBF /* FollowerCell.swift */; };
 		B51C4B8D2403F19900408CBF /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51C4B8C2403F19900408CBF /* BaseCell.swift */; };
 		B51C4B8F2403F21500408CBF /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51C4B8E2403F21500408CBF /* GFAvatarImageView.swift */; };
+		B51C4BBB2405475300408CBF /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51C4BBA2405475300408CBF /* UIHelper.swift */; };
 		B5313D1724015CCB005A3B96 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5313D1624015CCB005A3B96 /* Follower.swift */; };
 		B5313D1924015D96005A3B96 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5313D1824015D96005A3B96 /* User.swift */; };
 		B5313D1C240163DF005A3B96 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5313D1B240163DF005A3B96 /* NetworkManager.swift */; };
@@ -33,6 +34,7 @@
 		B51C4B8A2403F11A00408CBF /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		B51C4B8C2403F19900408CBF /* BaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
 		B51C4B8E2403F21500408CBF /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
+		B51C4BBA2405475300408CBF /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		B5313D1624015CCB005A3B96 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		B5313D1824015D96005A3B96 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		B5313D1B240163DF005A3B96 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				B5313D1E24016DD6005A3B96 /* ErrorMessage.swift */,
+				B51C4BBA2405475300408CBF /* UIHelper.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 				B51C4B8D2403F19900408CBF /* BaseCell.swift in Sources */,
 				B5F43FBF23FEBD970092C936 /* FollowerListViewController.swift in Sources */,
 				B5313D1C240163DF005A3B96 /* NetworkManager.swift in Sources */,
+				B51C4BBB2405475300408CBF /* UIHelper.swift in Sources */,
 				B5C7865A23FC113C001F245F /* AppDelegate.swift in Sources */,
 				B5E982CB23FD59FC0005B124 /* FavoritesListViewController.swift in Sources */,
 				B5C7865C23FC113C001F245F /* SceneDelegate.swift in Sources */,

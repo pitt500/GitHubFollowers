@@ -76,6 +76,47 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
+		B51C4C882406994800408CBF /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				B5E982CE23FD65FD0005B124 /* GFTextField.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		B51C4C892406998400408CBF /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				B53A00362400039800C5C6D4 /* GFTitleLabel.swift */,
+				B53A00382400056D00C5C6D4 /* GFBodyLabel.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		B51C4C8A2406999700408CBF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B51C4B8E2403F21500408CBF /* GFAvatarImageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B51C4C8B240699A000408CBF /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				B5E982CC23FD61170005B124 /* GFButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		B51C4C8C240699AA00408CBF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B53A003A2400068D00C5C6D4 /* GFAlertViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		B5313D1524015CBC005A3B96 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,13 +156,12 @@
 		B53A003F2400133200C5C6D4 /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				B51C4C8C240699AA00408CBF /* ViewControllers */,
+				B51C4C8B240699A000408CBF /* Buttons */,
+				B51C4C8A2406999700408CBF /* Views */,
+				B51C4C892406998400408CBF /* Labels */,
+				B51C4C882406994800408CBF /* TextFields */,
 				B51C4B892403F0F400408CBF /* Cells */,
-				B53A003A2400068D00C5C6D4 /* GFAlertViewController.swift */,
-				B5E982CC23FD61170005B124 /* GFButton.swift */,
-				B5E982CE23FD65FD0005B124 /* GFTextField.swift */,
-				B53A00362400039800C5C6D4 /* GFTitleLabel.swift */,
-				B53A00382400056D00C5C6D4 /* GFBodyLabel.swift */,
-				B51C4B8E2403F21500408CBF /* GFAvatarImageView.swift */,
 			);
 			path = "Custom Views";
 			sourceTree = "<group>";

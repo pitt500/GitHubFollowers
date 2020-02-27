@@ -1,5 +1,5 @@
 //
-//  ErrorMessage.swift
+//  GFError.swift
 //  GitHubFollowers
 //
 //  Created by projas on 2/22/20.

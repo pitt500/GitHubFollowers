@@ -26,7 +26,7 @@ class UserInfoViewController: UIViewController {
   }
   
   func configureViewController() {
-    view.backgroundColor = .white
+    view.backgroundColor = .systemBackground
     let done = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(dismissVC))
     navigationItem.rightBarButtonItem = done
   }
@@ -39,7 +39,11 @@ class UserInfoViewController: UIViewController {
       case .success(let user):
         DispatchQueue.main.async {
           self.add(childViewController: GFUserInfoHeaderViewController(user: user),
-          to: self.headerView)
+                   to: self.headerView)
+          self.add(childViewController: GFRepoItemViewController(user: user),
+                   to: self.itemViewOne)
+          self.add(childViewController: GFFollowItemViewController(user: user),
+                   to: self.itemViewTwo)
         }
       case .failure(let error):
         self.presentGFAlertOnMainThread(title: "Something went wrong", message: error.rawValue, buttonTitle: "Ok")
@@ -62,9 +66,6 @@ class UserInfoViewController: UIViewController {
         itemView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -padding)
       ])
     }
-    
-    itemViewOne.backgroundColor = .red
-    itemViewTwo.backgroundColor = .blue
     
     NSLayoutConstraint.activate([
       headerView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),

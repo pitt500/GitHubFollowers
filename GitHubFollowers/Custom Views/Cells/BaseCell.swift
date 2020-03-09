@@ -8,7 +8,13 @@
 
 import UIKit
 
-class BaseCell: UICollectionViewCell {
+class BaseCollectionCell: UICollectionViewCell {
+  static var reuseIdentifier: String {
+    String(describing: self)
+  }
+}
+
+class BaseCell: UITableViewCell {
   static var reuseIdentifier: String {
     String(describing: self)
   }
